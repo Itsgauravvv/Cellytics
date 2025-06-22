@@ -1,17 +1,17 @@
 
-# 📊 Excel Analytics Platform
+# Cellytics
 
-A full-stack Excel analytics web application built as part of an internship project. This platform allows users to upload Excel files, perform data analysis, and visualize results through an intuitive dashboard. It features secure authentication, role-based access control, and a modern UI.
-
----
-
-## 🚀 Live Demo
-
-👉 [Visit the deployed app]
+Cellytics is a full-stack Excel analytics web platform developed as part of an internship project. It empowers users to seamlessly upload Excel files, conduct advanced data analysis, and visualize insights through a dynamic and user-friendly dashboard. The application incorporates secure authentication, role-based access control (admin and user), and a responsive, modern UI designed for a smooth analytical experience.
 
 ---
 
-## 🛠️ Tech Stack
+## Demo
+
+👉 [Visit the deployed app](https://cellytics-main.vercel.app/)
+
+---
+
+##  Tech Stack
 
 ### Frontend
 
@@ -47,23 +47,23 @@ excel-analytics-platform/
 
 ---
 
-## 🔐 Authentication & Authorization
+##  Authentication & Authorization
 
 - **User Registration & Login**: Implemented using JWT tokens.
 - **Role-based Access**: Middleware to restrict access to admin-only routes.
 
 ---
 
-## 📊 Core Features
+##  Core Features
 
-- **Excel File Upload**: Users can upload `.xlsx` files for analysis.
+- **Excel File Upload**: Users can upload `.xlsx` or `.xls` files for analysis.
 - **Data Parsing**: Backend processes Excel files and extracts relevant data.
 - **Dashboard**: Visual representation of data using charts and tables.
 - **User Roles**: Admins have additional privileges like managing users.
 
 ---
 
-## 🧪 Getting Started
+## To start the app:
 
 ### Prerequisites
 
@@ -75,8 +75,8 @@ excel-analytics-platform/
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/Jeet-115/Excel-Analytics-Platform.git
-   cd Excel-Analytics-Platform
+   git clone https://github.com/Itsgauravvv/Cellytics
+   cd Cellytics
    ```
 
 2. **Setup Backend**:
@@ -91,6 +91,7 @@ excel-analytics-platform/
      ```env
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
+     GEMINI_API_KEY=your_gemini_api_key
      ```
 
    - Start the backend server:
@@ -105,16 +106,15 @@ excel-analytics-platform/
    cd ../client
    npm install
    ```
+   - Create a `.env` file in the `server` directory with the following:
+
+     ```env
+     VITE_API_BASE_URL=http://localhost:5000
+     ```
 
    - Start the frontend development server:
 
      ```bash
      npm run dev
      ```
-
-4. **Access the Application**:
-
-   - Open your browser and navigate to `http://localhost:3000`
-
----
 
