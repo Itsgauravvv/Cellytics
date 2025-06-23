@@ -31,7 +31,7 @@ Cellytics is a full-stack Excel analytics web platform developed as part of an i
 ## 📁 Project Structure
 
 ```
-excel-analytics-platform/
+Cellytics/
 ├── client/        # React frontend
 │   ├── src/
 │   ├── public/
@@ -117,4 +117,16 @@ excel-analytics-platform/
      ```bash
      npm run dev
      ```
-
+### Screenshots
+- Front Page:
+![Image 1](./ss1.png)
+![Image 2](./ss2.png)
+- User Dashboard:
+![Image 3](./ss3.png)
+![Image 4](./ss4.png)
+![Image 5](./ss5.png)
+![Image 6](./ss6.png)
+- Admin Dashboard:
+![Image 7](./ss7.png)
+![Image 8](./ss8.png)
+![Image 9](./ss9.png)
